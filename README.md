@@ -19,6 +19,8 @@ OBS: Não é possível utilizar em conjunto com um monitor no HDMI. É apenas um
 ### 1 - Create Virtual Screens
 Open terminal and run:
 ```shell
+git clone https://github.com/andre23arruda/linux-tablet-screen
+
 sudo chmod +x vdl-on
 sudo chmod +x vdl-off
 
@@ -26,6 +28,10 @@ sudo ./vdl-on
 
 # Reboot or relogin current session
 ```
+
+### Download VirtScreen AppImage
+- Download [VirtScreen.AppImage](https://github.com/kbumsik/VirtScreen/releases/download/0.3.1/VirtScreen.AppImage)
+- Adicione __VirtScreen.AppImage__ na pasta __linux-tablet-screen__
 
 ### 2 - Enable virtual screen
 After reboot or relogin, open terminal and run:
